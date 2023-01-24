@@ -1,0 +1,43 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;900&display=swap');
+
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(33, 30, 30);
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logoTitle {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.logo {
+    height: 60px;
+    width: 60x;
+    border-radius: 50%;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.logoTitle {
+    font-family: 'Unbounded', cursive;
+    font-size: 1.75rem;
+    color: rgb(247, 242, 242);
+}
+
+.links {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+    font-size: 0.95rem;
+    font-family: 'Unbounded', cursive;
+    margin-right: 5px;
+}
